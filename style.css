@@ -1,0 +1,59 @@
+@media (min-width: 576px)
+                {
+                    #welcome
+                    {
+                        display: block;
+                    }
+                }
+
+.logo{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    background-image: url(image/tumblr_o38g34EDEA1v5zp6wo7_1280.png);
+    background-size: 900px;
+    background-position: center;
+}
+.logo i{
+    font-size: 68px;
+    color: #8860D0;
+    margin-left: 4%;
+}
+.logo h2{
+    opacity: 90%;
+}
+
+.table a{
+    text-decoration: none;
+    color: #24305E;
+}
+
+.right{
+    position: sticky;
+    top: 4em;
+}
+
+.global-footer{    
+    background-color: #8860D0;
+}
+.footer-content i{
+    font-size: 50px;
+    float: left;
+    color: white;
+    padding-right: 6px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    transition: 0.2s ease;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
