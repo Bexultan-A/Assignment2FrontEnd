@@ -6,6 +6,22 @@
                     }
                 }
 
+@media (max-width: 1200px) {
+    .responsive-font-example {
+      font-size: 25px;
+    }
+  } 
+@media (max-width: 992px) {
+    .responsive-font-example {
+      font-size: 25px;
+    }
+  } 
+@media (max-width: 576px) {
+  .responsive-font-example {
+    font-size: 15px;
+  }
+}                
+
 .logo{
     margin: auto;
     display: flex;
@@ -38,7 +54,7 @@
     background-color: #8860D0;
 }
 .footer-content i{
-    font-size: 50px;
+    font-size: 30px;
     float: left;
     color: white;
     padding-right: 6px;
@@ -46,7 +62,7 @@
 .footer-content a{
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
 }
 .card{
     overflow: hidden;
